@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Mono-repo workspace specifics
+frontend/src/global/credential.ts
+frontend/node_modules/
+server/node_modules/
+server/src/credential.ts
+
+# Build outputs
+build/
+dist/
+frontend/build/
+server/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Coverage, cache, misc
+coverage/
+.cache/
+.next/
+.vercel/
+.turbo/
+.pnp.*
+.pnpm-store/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Docker
+**/.docker/ 

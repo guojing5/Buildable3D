@@ -1,0 +1,76 @@
+{
+  "name": "abode-atlas-adu-viewer",
+  "version": "0.1.14",
+  "private": true,
+  "author": {
+    "name": "Sourabh Soni",
+    "email": "Sourabh.Soni@prolincur.com"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/abodeatlas/abode-atlas-adu-viewer.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "babel-plugin-macros": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-scripts": "4.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1"
+  },
+  "dependencies": {
+    "@enable3d/three-graphics": "^0.23.0",
+    "@turf/turf": "^6.5.0",
+    "dotenv": "^10.0.0",
+    "immer": "^9.0.5",
+    "mapbox-gl": "^2.3.1",
+    "merge-refs": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-if": "^4.0.1",
+    "react-merge-refs": "^1.1.0",
+    "three": "0.127.0",
+    "threebox-plugin": "^2.2.4",
+    "zustand": "^3.5.7"
+  },
+  "scripts": {
+    "start": "yarn run clean && cross-env REACT_APP_ENV=development babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js && yarn pack",
+    "build": "yarn run clean && cross-env REACT_APP_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js && yarn pack",
+    "prettier": "prettier src/**/*.js --write",
+    "lint": "eslint --fix --ext .js,.jsx src",
+    "clean": "rimraf dist && rimraf abode-atlas-adu-viewer-v*.tgz",
+    "deploy": "cp -rf dist package.json ./example/node_modules/abode-atlas-adu-viewer/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "propertyId": "fcbbdba1-30da-47c6-9818-d859eda96e4c",
+    "language": "en",
+    "name": "The Back Pod",
+    "studioName": "The Dwellers",
+    "priceStarting": {"amount": 287700, "currency": "CAD"},
+    "size": {"value": 95.9, "unit": "square. m"},
+    "bed": 3,
+    "bath": 1,
+    "description": "This modern laneway suite offers spacious accommodations, perfect for two people. It features floor to ceiling windows that allow ample natural light into the front living space of the suite.",
+    "features": ["3 bedrooms", "1 bathroom with a standing shower", "Open concept living room and kitchen"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/models/adu1/ADU_Example.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+      },
+      "scale": 1.0,
+      "height": 5.642,
+      "length": 7.187,
+      "width": 8,
+      "wedge": false,
+	  "defaultSeparationDistance": 7.5
+    }
+  },
+  {
+    "propertyId": "e7e7eb2a-7f2c-418e-bef4-6a1d9339b3b3",
+    "language": "en",
+    "name": "Gabled Cottage",
+    "studioName": "Abode",
+    "priceStarting": {"amount": 179700, "currency": "CAD"},
+    "size": {"value": 59.9, "unit": "sq. m"},
+    "bed": 2,
+    "bath": 1,
+    "description": "Enjoy the simplicity of this folk-style laneway suite. It features large windows facing the main house that make for a more inclusive feel for family residents.",
+    "features": ["2 bedrooms with walk-in closets", "1 bathroom", "Open concept living room and kitchen"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1.0,
+      "height": 4,
+      "wedge": false,
+      "length": 10,
+      "width": 8,
+	  "defaultSeparationDistance": 5
+    }
+  },
+  {
+    "propertyId": "a04883ed-9fef-4809-9611-961679cce5a8",
+    "language": "en",
+    "name": "Modern",
+    "studioName": "Abode",
+    "priceStarting": {"amount": 135300, "currency": "CAD"},
+    "size": {"value": 45.1, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "Introduce a touch of modernism to your urban property with this elegant laneway suite design. It features a garage that can be conveniently accessed through the laneway.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Garage"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+      },
+      "scale": 1,
+      "height": 4,
+      "wedge": false,
+      "length": 10,
+      "width": 8,
+	  "defaultSeparationDistance": 5
+    }
+  },
+  {
+    "propertyId": "300dc53d-60d8-48de-bc97-5460afff2956",
+    "language": "en",
+    "name": "Angled Bungalow",
+    "studioName": "Abode",
+    "priceStarting": {"amount": 111300, "currency": "CAD"},
+    "size": {"value": 37.1, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "Enjoy the advantages of a pitched roof with this bungalow styled laneway suite that features a prominent skylight for ample natural interior lighting.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Open concept living room and kitchen"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+      },
+      "scale": 1,
+      "height": 4,
+      "wedge": false,
+      "length": 10,
+      "width": 6,
+	  "defaultSeparationDistance": 5
+    }
+  },
+  {
+    "propertyId": "31e93206-19dd-4dfb-b20c-61eb9d3588fc",
+    "language": "en",
+    "name": "Carriage House",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 150600, "currency": "CAD"},
+    "size": {"value": 50.2, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "A humble laneway suite design that affords its residents the privacy and space they desire, including a garage.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Garage"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+      },
+      "scale": 1,
+      "height": 3.5,
+      "wedge": false,
+      "length": 10.4,
+      "width": 5.8,
+	  "defaultSeparationDistance": 5
+    }
+  },
+  {
+    "propertyId": "7e774f28-44f5-4089-b930-43425935794d",
+    "language": "en",
+    "name": "Uplift",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 69600, "currency": "CAD"},
+    "size": {"value": 23.2, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "Uplift your living space with this 2-storey laneway suite that features a garage with ample space.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Garage"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+      },
+      "scale": 1,
+      "height": 4,
+      "wedge": false,
+      "length": 10.5,
+      "width": 5.8,
+	  "defaultSeparationDistance": 5
+    }
+  },
+  {
+    "propertyId": "a6da78d2-11d9-11ec-82a8-0242ac130003",
+    "language": "en",
+    "name": "Quadrant",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 104700, "currency": "CAD"},
+    "size": {"value": 34.9, "unit": "sq. m"},
+    "bed": 2,
+    "bath": 1,
+    "description": "A modern laneway suite design with lofty views over the laneway and a dormer that maximizes living space.",
+    "features": ["2 bedrooms with walk-in closets", "1 bathroom", "Open concept living room and kitchen", "Dormer"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+      },
+      "scale": 1,
+      "height": 6,
+      "wedge": true,
+      "length": 6.04,
+      "width": 4,
+	  "defaultSeparationDistance": 9.5
+    }
+  },
+  {
+    "propertyId": "a6da7d82-11d9-11ec-82a8-0242ac130003",
+    "language": "en",
+    "name": "Stacked",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 90600, "currency": "CAD"},
+    "size": {"value": 30.2, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "For the urbanite who loves to unwind, this laneway suite offers a balcony for sweeping cityscape views.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Open concept living room and kitchen", "Balcony"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+      },
+      "scale": 1,
+      "height": 6,
+      "wedge": false,
+      "length": 6,
+      "width": 4,
+	  "defaultSeparationDistance": 9.5
+    }
+  },
+  {
+    "propertyId": "a6da7bfc-11d9-11ec-82a8-0242ac130003",
+    "language": "en",
+    "name": "Skylight",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 108600, "currency": "CAD"},
+    "size": {"value": 36.2, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "This laneway suite features skylight windows that offer the privacy its residents desire, while allowing in ample natural light.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Skylight"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+      },
+      "scale": 1,
+      "height": 6,
+      "wedge": true,
+      "length": 6,
+      "width": 4,
+	  "defaultSeparationDistance": 7.5
+    }
+  },
+  {
+    "propertyId": "2e8eeaeb-d3cd-49d9-9426-fa3f7d4fa518",
+    "language": "en",
+    "name": "Prism",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 108600, "currency": "CAD"},
+    "size": {"value": 36.2, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "A simple laneway suite with a neutral architectural style, allowing it to suit almost any neighbourhood characteristic.",
+    "features": ["2 bedrooms with walk-in closets", "1 bathroom", "Open concept living room and kitchen"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+      },
+      "scale": 1,
+      "height": 6,
+      "wedge": false,
+      "length": 6,
+      "width": 4,
+	  "defaultSeparationDistance": 9.5
+    }
+  },
+  {
+    "propertyId": "a6da7e54-11d9-11ec-82a8-0242ac130003",
+    "language": "en",
+    "name": "Contemporary",
+    "studioName": "Abode",
+    "priceStarting":{"amount": 108600, "currency": "CAD"},
+    "size": {"value": 36.2, "unit": "sq. m"},
+    "bed": 1,
+    "bath": 1,
+    "description": "A laneway suite to complement those who wish to elevate their contemporary, urban lifestyle. It features tall windows, a skylight, and a garage.",
+    "features": ["1 bedroom with an ensuite bathroom", "Small office or study", "Garage", "Balcony", "Skylight"],
+    "featuresSustainability": ["Electric powered, instead of gas", "Grey water recycling", "Options for Energy Star appliances", "Low flow plumbing fixtures"],
+    "financialIncentive": ["Affordable Laneway Suites Program"],
+    "aduModelInfo": {
+      "data": "/model.dae",
+      "type": "dae",
+      "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+      },
+      "scale": 1,
+      "height": 6,
+      "wedge": true,
+      "length": 6,
+      "width": 6,
+	  "defaultSeparationDistance": 9.5
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "buildable3d",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run -ws start",
+    "build": "npm run -ws build",
+    "start:frontend": "npm start -w frontend",
+    "start:server": "npm start -w server",
+    "install:all": "npm ci --workspaces"
+  }
+} 

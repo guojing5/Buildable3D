@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  server:
+    image: node:16
+    working_dir: /app/server
+    volumes:
+      - ./:/app
+      - server_node_modules:/app/server/node_modules
+      - frontend_node_modules:/app/frontend/node_modules
+    environment:
+      - NODE_ENV=development
+    command: sh -c "cd server && npm ci && npm start"
+    ports:
+      - "3001:3001"
+      - "3000:3000"
+
+  frontend:
+    image: node:16
+    working_dir: /app/frontend
+    volumes:
+      - ./:/app
+      - frontend_node_modules:/app/frontend/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - PORT=3000
+      - BROWSER=none
+    command: sh -c "cd frontend && npm ci && npm start"
+    depends_on:
+      - server
+    # Share the network namespace with the server so CRA proxy to localhost:3001 works
+    network_mode: "service:server"
+
+volumes:
+  frontend_node_modules:
+  server_node_modules: 
