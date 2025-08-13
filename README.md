@@ -38,8 +38,8 @@ GitHub Issues. Best for: bugs and errors you encounter using Buildable3D.
 Email Support. Best for: problems with your database or infrastructure.
 Discord. Best for: sharing your applications and hanging out with the community.
 
-🤝 ## Contributing
-We welcome contributions!
+## Contributing
+We welcome contributions! 🤝 
 
 ---
 
