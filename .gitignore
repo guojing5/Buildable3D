@@ -49,4 +49,4 @@ logs/
 *.log
 
 # Docker
-**/.docker/ 
+**/.docker/ /frontend/public/img/resource_home_construction.mov
