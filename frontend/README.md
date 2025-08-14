@@ -12,3 +12,8 @@ The entire web application uses the following tech stack:
 ### `npm install`
 ### `npm start`
 ### `npm build`
+
+Use the following to install: 
+
+export NODE_OPTIONS=--openssl-legacy-provider
+npm start

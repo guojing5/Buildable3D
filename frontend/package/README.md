@@ -1,6 +1,6 @@
-# Abode Atlas ADU
+# Buildable3D Viewer
 
-Abode Atlas ADU project is developed using [MapBox](https://docs.mapbox.com/), [three.js](https://threejs.org/) and [react](https://reactjs.org/) technology. `MapBox` is used for mapping services, `three.js`  for rendering 3D objects and `react` for other HTML5 elements. 
+Buildable3D Viewer ADU project is developed using [MapBox](https://docs.mapbox.com/), [three.js](https://threejs.org/) and [react](https://reactjs.org/) technology. `MapBox` is used for mapping services, `three.js`  for rendering 3D objects and `react` for other HTML5 elements. 
 
 ## Getting Started with Library
 
@@ -96,6 +96,4 @@ Mozilla Firefox, Microsoft Edge, Chrome
 
 ### Author
 
-[Sourabh Soni](mailto:Sourabh.Soni@prolincur.com)\
-[Prolincur Technologies](https://prolincur.com)
 

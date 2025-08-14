@@ -3398,7 +3398,7 @@ abab@^2.0.3, abab@^2.0.5:
     react-loader-spinner "^4.0.0"
     react-merge-refs "^1.1.0"
     three "0.127.0"
-    threebox-plugin "git+ssh://git@github.com:prolincur/threebox.git#ab"
+    threebox-plugin "git+ssh://git@github.com:peterqliu/threebox.git"
     zustand "^3.5.7"
 
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
@@ -11897,9 +11897,9 @@ three@0.127.0:
   resolved "https://registry.yarnpkg.com/three/-/three-0.127.0.tgz#c463f4d41b2c735dcf8e9e51a388815e80cd3791"
   integrity sha512-wtgrn+mhYUbobxT7QN3GPdu3SRpSBQvwY6uOzLChWS7QE//f7paDU/+wlzbg+ngeIvBBqjBHSRuywTh8A99Jng==
 
-"threebox-plugin@git+ssh://git@github.com:prolincur/threebox.git#ab":
+"threebox-plugin@git+ssh://git@github.com:peterqliu/threebox.git":
   version "12.3.4"
-  resolved "git+ssh://git@github.com:prolincur/threebox.git#005bd7f441cd1d21732060f1f8def2e97cb44541"
+  resolved "git+ssh://git@github.com:peterqliu/threebox.git"
 
 throat@^5.0.0:
   version "5.0.0"

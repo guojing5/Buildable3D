@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import EligibilityPage from './pages/EligibilityPage';
 import HomePage from './pages/HomePage';
@@ -15,35 +15,20 @@ function App() {
   return (
     <div>
       <ScrollToTop>
-      <Route path='/home'>
-        <HomePage />
-      </Route>
-      <Route path='/verify'>
-        <VerifyPage />
-      </Route>
-      <Route path='/eligibility'>
-        <EligibilityPage />
-      </Route>
-      <Route path='/interaction'>
-        <InteractionPage />
-      </Route>
-      <Route path='/resource/chooseexperts'>
-        <ChooseExpertsPage />
-      </Route>
-      <Route path='/resource/stepinvolved'>
-        <StepInvolvedPage />
-      </Route>
-      <Route path='/resource/consultingneighbors'>
-        <ConsultingNeighborsPage />
-      </Route>
-      <Route path='/resource/applyminorvariances'>
-        <ApplyMinorVariancesPage />
-      </Route>
-      <Route exact path='/resource'>
-        <ResourcePage />
-      </Route>
+        <Switch>
+          <Route path='/home' component={HomePage} />
+          <Route path='/verify' component={VerifyPage} />
+          <Route path='/eligibility' component={EligibilityPage} />
+          <Route path='/interaction' component={InteractionPage} />
+          <Route path='/resource/chooseexperts' component={ChooseExpertsPage} />
+          <Route path='/resource/stepinvolved' component={StepInvolvedPage} />
+          <Route path='/resource/consultingneighbors' component={ConsultingNeighborsPage} />
+          <Route path='/resource/applyminorvariances' component={ApplyMinorVariancesPage} />
+          <Route path='/resource' component={ResourcePage} />
+          {/* Default route */}
+          <Route path='/' component={HomePage} />
+        </Switch>
       </ScrollToTop>
-
     </div>
   );
 }

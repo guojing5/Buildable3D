@@ -10,8 +10,8 @@ export default function TopBar(props: {selected: string}) {
                     <div className='line' style={{alignItems: 'center', gap: '24px', cursor: 'pointer'}} onClick={() => history.push('/home')}>
                         <div><img src={abodeLogo} alt='' /></div>
                         <div>
-                            <h2 className='h2 mbottom-0' style={{lineHeight: '28px'}}>Abode Atlas</h2>
-                            <h2 className='h2 mbottom-0' style={{lineHeight: '28px'}}>Technologies Inc.</h2>
+                            {/* <h2 className='h2 mbottom-0' style={{lineHeight: '28px'}}>Abode Atlas</h2> */}
+                            <h1 className='h1 mbottom-0' style={{lineHeight: '48px'}}>Abode Atlas</h1>
                         </div>
                     </div>
                     <nav style={{marginLeft: 'auto'}}>

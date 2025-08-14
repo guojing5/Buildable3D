@@ -7,7 +7,7 @@ import { Constants } from '../utils/constants'
  * Renders a debug point
  * @component DebugPoint
  * @param {Props} props - React component properties
- * @author Sourabh Soni <https://prolincur.com>
+ * @author jing.guo@abodeatlas.com
  */
 const DebugPoint = (props) => {
   const { map } = props

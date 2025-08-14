@@ -21,8 +21,18 @@ const router = express.Router();
 const addressVerifyDetailCache: AddressVerifyDetail[] = [];
 let lanewaySuites: LanewaySuite[] = [];
 
-fs.readFile(path.join(__dirname, './data/lanewaySuites.json'), 'utf8', (err, data) => {
-    lanewaySuites = JSON.parse(data) as LanewaySuite[];
+fs.readFile(path.join(__dirname, '../data/lanewaySuites.json'), 'utf8', (err, data) => {
+    if (err) {
+        console.error('Failed to read lanewaySuites.json:', err);
+        lanewaySuites = [];
+        return;
+    }
+    try {
+        lanewaySuites = JSON.parse(data) as LanewaySuite[];
+    } catch (parseErr) {
+        console.error('Failed to parse lanewaySuites.json:', parseErr);
+        lanewaySuites = [];
+    }
 });
 
 router.get('/api/faq', (req, res) => {

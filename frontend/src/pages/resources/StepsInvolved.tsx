@@ -34,7 +34,7 @@ function FlowDiagram(props: {currentStep: number}) {
 function Step1() {
     return (<div>
         <h2 className='h2'>Step 1: Evaluate</h2>
-        <p className='mbottom-2'>Abode Atlas Technologies can evaluate your property's potential for ADU development and provide essential information for your planning purposes. If your property has ADU potential, you may start planning using our interactive 3D viewer.</p>
+        <p className='mbottom-2'>Buildable3D can evaluate your property's potential for ADU development and provide essential information for your planning purposes. If your property has ADU potential, you may start planning using our interactive 3D viewer.</p>
         <p className='mbottom-6'>In case your property does not have the potential for an ADU, you can explore additional options, such as applying for minor variances, which may allow you to develop an ADU.</p>
     </div>)
 }

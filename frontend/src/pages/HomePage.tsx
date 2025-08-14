@@ -49,9 +49,10 @@ function HomePage() {
                 <div className="row">
                     <div className="col-4" style={{color: '#fff'}}>
                         <h1 className='h1' style={{paddingRight: '10px', color: '#fff', marginBottom: '24px'}}>Explore your property’s living space potential &#x1F3E1;</h1>
-                        <p className='mbottom-1'>Check your property’s potential for an Accessory Dwelling Unit (ADU) and preview design plans in your own backyard.</p>
+                        <p className='mbottom-1'>Check your property’s potential for expansions, preview design plans, and create construction plans.</p>
                         <Form className='mbottom-2'>
-                            <Form.Group className="home_autocomplete mbottom-3" controlId="home-property-address-input">
+                            <Form.Group className="home_autocomplete mbottom-3" controlId="home-property-address-input"
+                            style = {{ marginTop: '100px' }}>
                                 <GooglePlacesAutocomplete apiKey={GOOGLE_API_KEY}
                                 autocompletionRequest={{componentRestrictions: {country: 'CA'}}}
                                 selectProps={{
@@ -62,11 +63,26 @@ function HomePage() {
                             </Form.Group>
                             <div className="d-grid"><button className='appbutton appbutton-primary full-width' onClick={onGetStart}>Get started</button></div>
                         </Form>
-                        <p className='small-text'>*Currently, you may only check a property’s potential for a laneway suite in Toronto, Canada. We are working closely with other municipalities to expand our geographical coverage and develop property checks for ADUs like garden suites, secondary suites, and floor additions.</p>
                     </div>
-                    <div className="col-8">
-                        <div style={{'border': '1px solid #fff', 'height': '100%'}}></div>
+                    <div className="col-8" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/home_dog.jpg'}
+                        alt="Home construction"
+                        style={{
+                        width: 'auto',
+                        height: 'auto',
+                        maxWidth: '100%',
+                        maxHeight: '400px',
+                        display: 'block',
+                        background: '#000',
+                        margin: 0,
+                        padding: 0,
+                        border: 'none',
+                        boxShadow: 'none'
+                        }}
+                    />
                     </div>
+
                 </div>
             </div>
         </section>
